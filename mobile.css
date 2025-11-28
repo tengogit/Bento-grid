@@ -7,11 +7,10 @@
     box-sizing: border-box;
 }
 
-body,
-html {
-    overflow-x: hidden !important;
-     touch-action: none;
-
+html, body {
+  overflow-x: hidden;  /* ჰორიზონტალური სქროლის გათიშვა */
+  overflow-y: auto;    /* ვერტიკალური მუშაობს */
+  touch-action: pan-y; /* თითით მხოლოდ ვერტიკალური გადაადგილება */
 }
 
 body {
