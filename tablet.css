@@ -1,0 +1,128 @@
+@media(width>768px) {
+
+    header,
+    main,
+    footer,
+    .box2,
+    .box1,
+    .box5,
+    section,
+    .box6,
+    .box7,
+    .cont {
+        width: 688px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 54px;
+    }
+
+    .box3,
+    .box4 {
+        width: 328px;
+        height: 247px;
+        margin: 0;
+    }
+
+    .box2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .shedule {
+        display: none;
+    }
+
+    .sheduletab {
+        display: inline;
+        margin-left: -98px;
+        margin-top: 16px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .social {
+        margin-bottom: 55px;
+    }
+
+    .diagram {
+        display: none;
+    }
+
+    .diagramtab {
+        display: inline;
+        margin-top: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+        width: 359px;
+        height: 40px;
+        margin-top: 24px;
+    }
+
+    h4 {
+        font-size: 36px;
+        width: 257px;
+        height: 90px;
+        text-align: left;
+        line-height: 28px;
+    }
+
+    .box6 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .diagramlittle {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .box7-1,
+    .box7-2 {
+        width: 192px;
+        height: 83px;
+    }
+
+    .box7 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .avatars {
+        margin: 0;
+    }
+
+    h5 {
+        font-size: 55px;
+    }
+
+    .box8,
+    .box9 {
+        width: 328px;
+        height: 354px;
+        margin: 0;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 32px;
+        gap: 32px;
+    }
+
+    .footp1 {
+        font-size: 34px;
+        line-height: 30px;
+        margin-top: 55px;
+    }
+
+    button {
+        margin-top: 60px;
+    }
+}
